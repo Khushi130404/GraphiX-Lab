@@ -11,6 +11,8 @@ int main()
     rectangle(40, 110, 150, 370);
     rectangle(490, 110, 600, 370);
     circle(320, 240, 60);
+    rectangle(40, 160, 70, 320);
+    rectangle(570, 160, 600, 320);
     getch();
     closegraph();
     return 0;
