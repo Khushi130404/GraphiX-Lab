@@ -17,6 +17,8 @@ int main()
     fillellipse(320, 240, 2, 2);
     fillellipse(110, 240, 2, 2);
     fillellipse(530, 240, 2, 2);
+    arc(110, 240, 315, 45, 60);
+    arc(530, 240, 135, 225, 60);
     getch();
     closegraph();
     return 0;
