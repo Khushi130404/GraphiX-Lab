@@ -13,6 +13,10 @@ int main()
     circle(320, 240, 60);
     rectangle(40, 160, 70, 320);
     rectangle(570, 160, 600, 320);
+    setfillstyle(SOLID_FILL, WHITE);
+    fillellipse(320, 240, 2, 2);
+    fillellipse(110, 240, 2, 2);
+    fillellipse(530, 240, 2, 2);
     getch();
     closegraph();
     return 0;
