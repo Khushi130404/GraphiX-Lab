@@ -10,9 +10,7 @@ int main()
     line(320, 40, 320, 440);
     rectangle(40, 110, 150, 370);
     rectangle(490, 110, 600, 370);
-    // setlinestyle(0, 0, 1);
-    // line(260, 155, 260, 325);
-    // line(380, 155, 380, 325);
+    circle(320, 240, 60);
     getch();
     closegraph();
     return 0;
