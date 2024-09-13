@@ -12,7 +12,7 @@ void drawCar(int x, int y)
     setfillstyle(SOLID_FILL, RED);
     bar(x + 66, y - 20, x + 74, y + 10);
     setfillstyle(SOLID_FILL, BLACK);
-    bar(x+69, y+10 , x + 71, y + 50);
+    bar(x + 69, y + 10, x + 71, y + 50);
     fillellipse(x + 30, y + 60, 25, 25);
     fillellipse(x + 110, y + 60, 25, 25);
     setfillstyle(SOLID_FILL, DARKGRAY);
