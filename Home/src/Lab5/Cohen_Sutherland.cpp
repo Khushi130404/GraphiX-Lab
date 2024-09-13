@@ -39,7 +39,6 @@ int main()
     int c2[4];
     int c[4];
     code(x1, y1, Xmin, Ymin, Xmax, Ymax, c1);
-    // printf("%d %d %d %d", c1[0], c1[1], c1[2], c1[3]);
     code(x2, y2, Xmin, Ymin, Xmax, Ymax, c2);
     or_operation(c1, c2, c);
     int sum = 0;
@@ -53,11 +52,12 @@ int main()
     }
     else
     {
-        and_operation(c1, c2, c);
+        int cc[4];
+        and_operation(c1, c2, cc);
         sum = 0;
         for (int i = 0; i < 4; i++)
         {
-            sum += c[i];
+            sum += cc[i];
         }
         if (sum == 0)
         {
@@ -84,6 +84,8 @@ int main()
                 x = Xmin;
             }
             line(x, y, xx, yy);
+            line(x + 1, y + 1, xx + 1, yy + 1);
+            line(x - 1, y - 1, xx - 1, yy - 1);
         }
     }
     getch();
