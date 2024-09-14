@@ -65,7 +65,7 @@ void drawLudoBoard(int startX, int startY, int cellSize)
     {
         for (int j = 0; j < 2; j++)
         {
-            fillellipse(startX + (i * 2 + 1) * cellSize, startY + (j * 2 + 1) * cellSize, cellSize / 6, cellSize / 6);
+            fillellipse(startX + (i * 2 + 1) * cellSize, startY + (j * 2 + 1) * cellSize, cellSize / 3, cellSize / 3);
         }
     }
 
@@ -74,7 +74,7 @@ void drawLudoBoard(int startX, int startY, int cellSize)
     {
         for (int j = 0; j < 2; j++)
         {
-            fillellipse(startX + (5 + i * 2 + 1) * cellSize, startY + (j * 2 + 1) * cellSize, cellSize / 6, cellSize / 6);
+            fillellipse(startX + (5 + i * 2 + 1) * cellSize, startY + (j * 2 + 1) * cellSize, cellSize / 3, cellSize / 3);
         }
     }
 
@@ -83,7 +83,7 @@ void drawLudoBoard(int startX, int startY, int cellSize)
     {
         for (int j = 0; j < 2; j++)
         {
-            fillellipse(startX + (5 + i * 2 + 1) * cellSize, startY + (5 + j * 2 + 1) * cellSize, cellSize / 6, cellSize / 6);
+            fillellipse(startX + (5 + i * 2 + 1) * cellSize, startY + (5 + j * 2 + 1) * cellSize, cellSize / 3, cellSize / 3);
         }
     }
 
@@ -92,7 +92,7 @@ void drawLudoBoard(int startX, int startY, int cellSize)
     {
         for (int j = 0; j < 2; j++)
         {
-            fillellipse(startX + (i * 2 + 1) * cellSize, startY + (5 + j * 2 + 1) * cellSize, cellSize / 6, cellSize / 6);
+            fillellipse(startX + (i * 2 + 1) * cellSize, startY + (5 + j * 2 + 1) * cellSize, cellSize / 3, cellSize / 3);
         }
     }
 }
@@ -101,7 +101,7 @@ int main()
 {
     int gd = DETECT, gm;
     initgraph(&gd, &gm, "");
-    int startX = 50, startY = 50;
+    int startX = 200, startY = 100;
     int cellSize = 30; 
     drawLudoBoard(startX, startY, cellSize);
     getch();
