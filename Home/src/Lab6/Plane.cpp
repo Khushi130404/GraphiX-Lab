@@ -41,6 +41,16 @@ int main()
                   145, 265,
                   130, 265};
     fillpoly(4, arr5);
+    setfillstyle(SOLID_FILL, DARKGRAY);
+    setcolor(DARKGRAY);
+    fillellipse(240, 225, 8, 10);
+    fillellipse(260, 225, 8, 10);
+    fillellipse(280, 225, 8, 10);
+    fillellipse(300, 225, 8, 10);
+    fillellipse(320, 225, 8, 10);
+    fillellipse(340, 225, 8, 10);
+    fillellipse(360, 225, 8, 10);
+    fillellipse(410, 225, 26, 13);
     getch();
     closegraph();
     return 0;
