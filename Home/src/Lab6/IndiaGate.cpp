@@ -10,17 +10,13 @@ int main()
     bar(150, 200, 270, 420);
     bar(370, 200, 490, 420);
     bar(150, 200, 490, 270);
+    bar(155, 130, 485, 180);
+    bar(190, 60, 450, 110);
     setfillstyle(SOLID_FILL, BROWN);
     bar(140, 180, 500, 200);
     bar(135, 420, 285, 450);
     bar(355, 420, 505, 450);
-    setfillstyle(SOLID_FILL, YELLOW);
-    bar(155, 130, 485, 180);
-    setfillstyle(SOLID_FILL, BROWN);
     bar(168, 110, 472, 130);
-    setfillstyle(SOLID_FILL, YELLOW);
-    bar(190, 60, 450, 110);
-    setfillstyle(SOLID_FILL, BROWN);
     bar(230, 40, 410, 60);
     int points[] = {280, 40,
                     360, 40,
