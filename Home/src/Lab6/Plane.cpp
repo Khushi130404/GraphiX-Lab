@@ -31,6 +31,11 @@ int main()
                   250, 300};
     setcolor(RED);
     fillpoly(4, arr3);
+    int arr4[] = {315, 199,
+                  355, 199,
+                  340, 180,
+                  310, 180};
+    fillpoly(4, arr4);
     getch();
     closegraph();
     return 0;
