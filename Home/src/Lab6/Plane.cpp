@@ -10,7 +10,7 @@ int main()
     int arr1[] = {200, 200,
                   400, 200,
                   470, 245,
-                  400,275,
+                  400, 275,
                   200, 260,
                   170, 230,
                   140, 150,
@@ -24,6 +24,13 @@ int main()
     fillpoly(4, arr2);
     setcolor(WHITE);
     fillellipse(420, 250, 50, 25);
+    setfillstyle(SOLID_FILL, RED);
+    int arr3[] = {270, 275,
+                  313, 275,
+                  280, 300,
+                  250, 300};
+    setcolor(RED);
+    fillpoly(4, arr3);
     getch();
     closegraph();
     return 0;
