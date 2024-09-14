@@ -51,6 +51,10 @@ int main()
     fillellipse(340, 225, 8, 10);
     fillellipse(360, 225, 8, 10);
     fillellipse(410, 225, 26, 13);
+    int arr6[] = {385, 222,
+                  410, 205,
+                  435, 220};
+    fillpoly(3, arr6);
     getch();
     closegraph();
     return 0;
