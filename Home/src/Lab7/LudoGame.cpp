@@ -102,7 +102,7 @@ int main()
     int gd = DETECT, gm;
     initgraph(&gd, &gm, "");
     int startX = 200, startY = 100;
-    int cellSize = 30; 
+    int cellSize = 30;
     drawLudoBoard(startX, startY, cellSize);
     getch();
     closegraph();
