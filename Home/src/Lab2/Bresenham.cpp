@@ -16,7 +16,7 @@ int main()
     if (m < 1.0)
     {
         int pk = 2 * abs(dy) - abs(dx);
-        for (int i = 0; i < abs(dx) && xk != x1; i++)
+        for (int i = 0; i < abs(dx) - 1 && xk != x1; i++)
         {
             xk++;
             if (pk < 0)
@@ -34,7 +34,7 @@ int main()
     else
     {
         int pk = 2 * abs(dx) - abs(dy);
-        for (int i = 0; i < abs(dy) && yk != y1; i++)
+        for (int i = 0; i < abs(dy) - 1 && yk != y1; i++)
         {
             yk++;
             if (pk < 0)
