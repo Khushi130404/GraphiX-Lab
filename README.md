@@ -8,9 +8,9 @@ such as animations and drawings of real-world objects.
 
 - ⚡ C++ Compiler (Turbo C++, Dev-C++, Code::Blocks with MinGW, or MS Visual Studio)
   
-- 🎨 graphics.h library
-
 - 📁 BGI (Borland Graphics Interface) files (BGI, EGAVGA.BGI)
+  
+- 🎨 graphics.h library
 
 ## 📂 Programs Included
 
@@ -34,8 +34,20 @@ such as animations and drawings of real-world objects.
 13. Solar System 🌍🌞 using computer graphics functions  
 14. Ludo Board 🎲 using computer graphics functions  
 
-### 🏅 Animations & Scaling
+### 🎬 Animations & Scaling
 
 15. Moving Car Animation 🚗💨  
 16. Cartoon Character Creation & Transformation Technique 🎭  
 17. Flying Plane Animation ✈️🌤  
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/GraphiX-Lab.git
+
+# Open the project in a C++ IDE supporting graphics.h
+
+# Ensure graphics.h, winbgim.h, and libbgi.a are properly installed
+
+# Compile and run the program
